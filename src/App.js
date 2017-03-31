@@ -10,18 +10,18 @@ class App extends Component {
         <p className="App-intro">
           Hello world
         </p>
-        <Itembox itemName="INVOKER" />
-        <Itembox itemName="DROW RANGER" />
-        <Itembox itemName="MIRANA" />
-        <Itembox itemName="TINY" />
-        <Itembox itemName="EARTHSHAKER" />
-        <Itembox itemName="BEASTMASTER" />
-        <Itembox itemName="SNIPER" />
-        <Itembox itemName="PHANTOM ASSASSIN" />
-        <Itembox itemName="EARTH SPIRIT" />
-        <Itembox itemName="NYX ASSASSIN" />
-        <Itembox itemName="PUDGE" />
-        <Itembox itemName="NIGHT STALKER" />
+        <Itembox itemName="INVOKER" detail="Main stat is INT"/>
+        <Itembox itemName="DROW RANGER"  detail="Main stat is AGI"/>
+        <Itembox itemName="MIRANA"  detail="Main stat is AGI"/>
+        <Itembox itemName="TINY"  detail="Main stat is STR"/>
+        <Itembox itemName="EARTHSHAKER"  detail="Main stat is STR"/>
+        <Itembox itemName="BEASTMASTER"  detail="Main stat is STR"/>
+        <Itembox itemName="SNIPER"  detail="Main stat is AGI"/>
+        <Itembox itemName="PHANTOM ASSASSIN"  detail="Main stat is AGI"/>
+        <Itembox itemName="EARTH SPIRIT"  detail="Main stat is STR"/>
+        <Itembox itemName="NYX ASSASSIN"  detail="Main stat is AGI"/>
+        <Itembox itemName="PUDGE"  detail="Main stat is STR"/>
+        <Itembox itemName="NIGHT STALKER"  detail="Main stat is STR"/>
       </div>
     );
   }
