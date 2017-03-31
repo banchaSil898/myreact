@@ -5,8 +5,8 @@ class Itembox extends Component{
 		let {itemName,detail} = this.props;
 		return(
 				<div className="itemBox">
-					<div>{itemName}</div>
-					<div>
+					<div className ="itemHeader">{itemName}</div>
+					<div className ="itemDetail">
 						Item {detail}
 					</div>
 				</div>

@@ -20,12 +20,22 @@
 
 .itemBox{
   background-color: #faa;
-  float: left;
-  padding: 2px;
+  float: left;  
   height: 20em;
   margin: 2em;
   border: solid 2px;
   width: 15em;
+}
+
+.itemHeader{
+  background-color: #aaa;
+  height: 2.5em;
+  line-height: 2.5em;
+}
+
+.itemDetail{
+  height: 17em;
+  text-align: left;
 }
 
 @keyframes App-logo-spin {
